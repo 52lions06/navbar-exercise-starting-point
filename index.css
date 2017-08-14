@@ -58,16 +58,22 @@ body {
     flex-wrap: none;
     list-style: none;
     padding: 0;
-    /*border: 1px solid black;*/
+    /*border: 1px solid green;*/
 }
 
 .menu-right {
+    display: flex;
+    justify-content: flex-end;
     list-style: none;
+    min-width: 60px;
+    /*border: 1px solid black;*/
 }
 
 .header {
-  margin-left: 10px;
+  margin-left: 15px;
   display: inline-block;
+  /*border: 1px solid orange;*/
+
 }
 
 .header:hover {
@@ -79,7 +85,14 @@ a {
   font-family: roboto;
 }
 
-@media (max-width: 576px) {
+.works {
+    min-width: 115px;
+}
+.sign-in {
+    min-width: 60px;
+    margin-left: 15px;
+}
+@media (max-width: 610px) {
     .hamburger {
         display: inline-block;
         order: 2;
