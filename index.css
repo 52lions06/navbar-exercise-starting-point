@@ -37,6 +37,7 @@ body {
     border-bottom: 1px solid lightgray;
     padding: 10px;
     align-items: center;
+    max-width: 1000px;
 }
 
 .logo {
