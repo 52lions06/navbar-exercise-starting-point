@@ -8,3 +8,8 @@
 
 -  Flexbox the containers (sub-nav)
 -  change the text color 
+
+# Write 2 navigations (an option / Mark says no)
+
+-  one for mobile 
+-  one for desktop 
